@@ -1053,6 +1053,20 @@
             >
               <Input v-model:value="formState.username" />
             </FormItem>
+            <FormItem
+              label="企业名称"
+              name="username"
+              :rules="[{ required: true, message: 'Please input your username!' }]"
+            >
+              <Input v-model:value="formState.username" />
+            </FormItem>
+            <FormItem
+              label="企业名称"
+              name="username"
+              :rules="[{ required: true, message: 'Please input your username!' }]"
+            >
+              <Input v-model:value="formState.username" />
+            </FormItem>
           </Form>
         </Card>
       </Modal>
